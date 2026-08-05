@@ -14,8 +14,8 @@ sounds = {
     "bruh": pygame.mixer.Sound(SOUND_DIR + "bruh.wav"),
     "dub_siren": pygame.mixer.Sound(SOUND_DIR + "dub_siren.wav"),
     "gun_shot": pygame.mixer.Sound(SOUND_DIR + "gun_shot.wav"),
-    "wah_wah": pygame.mixer.Sound(SOUND_DIR + "wah_wah_trombone.wav")
-    "perfect": pygame.mixer.Sound(SOUND_DIR + "perfect.wav"),
+    "wah_wah": pygame.mixer.Sound(SOUND_DIR + "wah_wah_trombone.wav"),
+    "perfect": pygame.mixer.Sound(SOUND_DIR + "perfect.wav")
 }
 
 # Map each sound name to the GPIO pin its button is wired to.
