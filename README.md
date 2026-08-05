@@ -15,8 +15,9 @@ RestartSec=3
 [Install]
 WantedBy=multi-user.target
 
-#Add under [service] if audio does not play on autostart
+#Add under [service] if audio does not play on autostart, either
 #Environment=SDL_AUDIODRIVER=alsa
+#Environment=XDG_RUNTIME_DIR=/run/user/1000
 
 sudo systemctl daemon-reload
 sudo systemctl enable soundboard.service
